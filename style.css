@@ -1,0 +1,51 @@
+
+
+body{
+	background-color: dimgrey;
+	margin: 0px;
+	padding-left: 0px;
+	color: #2B2B2C;
+}
+
+.top_menu li{
+	display: inline-block;
+}
+.top_menu,.Logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+}
+
+.top_menu a{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	color: #2B2B2C;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-left: 30px ;
+}
+
+.Logo{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 18px;
+	color: #2B2B2C;
+	vertical-align: middle;
+	text-shadow: 5px 1px 1px rgb(129, 127, 127);
+}
+
+.top_menu a:hover{
+	color: rgb(26, 25, 25) ;
+	border-radius: 6px;
+	background-color: darkgray;
+	text-shadow: 5px 5px 5px rgb(87, 86, 86);
+}
+
+.p1{
+	font-size: 20px;
+	font-family: initial;
+}
