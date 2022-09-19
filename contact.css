@@ -1,0 +1,70 @@
+
+
+body{
+	background: linear-gradient(dimgrey,dimgrey,silver)fixed;
+	margin: 0px;
+	padding-left: 0px;
+	color: #2B2B2C;
+}
+
+.top_menu li{
+	display: inline-block;
+	width: 200px;
+}
+.top_menu,.Logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 30px;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+}
+
+.top_menu a{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 25px;
+	color: #2B2B2C;
+	text-decoration: none;
+	vertical-align: middle;
+	margin-left: 30px ;
+}
+
+.Logo{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 20px;
+	color: #2B2B2C;
+	vertical-align: middle;
+	text-shadow: 5px 1px 1px rgb(129, 127, 127);
+}
+
+.top_menu a:hover{
+	color: rgb(26, 25, 25) ;
+	border-radius: 6px;
+	background-color: darkgray;
+	text-shadow: 5px 5px 5px rgb(87, 86, 86);
+}
+
+p {
+	font-size: 20px;
+	font-family: initial;
+	margin: 20px;
+}
+
+.top_menu a:visited{
+	background-color:darkgray ;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid grey;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+img:hover{
+    border: 3px solid white;
+}
