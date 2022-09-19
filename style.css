@@ -1,7 +1,7 @@
 
 
 body{
-	background-color: dimgrey;
+	background: linear-gradient(dimgrey,dimgrey,silver)fixed;
 	margin: 0px;
 	padding-left: 0px;
 	color: #2B2B2C;
@@ -9,6 +9,7 @@ body{
 
 .top_menu li{
 	display: inline-block;
+	width: 200px;
 }
 .top_menu,.Logo{
 	display: inline-block;
@@ -23,7 +24,7 @@ header{
 
 .top_menu a{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 20px;
+	font-size: 25px;
 	color: #2B2B2C;
 	text-decoration: none;
 	vertical-align: middle;
@@ -32,7 +33,7 @@ header{
 
 .Logo{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	color: #2B2B2C;
 	vertical-align: middle;
 	text-shadow: 5px 1px 1px rgb(129, 127, 127);
